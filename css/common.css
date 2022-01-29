@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+
+body {
+    background: var(--bg-color);
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4rem;
+}
+
+h2,
+h3,
+h4,
+h1,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
