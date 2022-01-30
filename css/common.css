@@ -3,7 +3,6 @@
 
 
 body {
-    background: var(--bg-color);
     font-family: 'Lato', sans-serif;
     line-height: 1.4rem;
 }
@@ -15,4 +14,51 @@ h1,
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --primary-color:#7D525F;
+    --secondary-color:#BDD1DA;
+    --red-600:#dc2626;
+    --red-500:#ef4444;
+    --red-200:#fecaca;
+    --green-600:#65a30d;
+    --green-500:#22c55e;
+    --green-200:#bbf7d0;
+    --warn-600:#d97706;
+    --warn-500:#f59e0b;
+    --warn-200:#fde68a;
+    --gray-600:#52525b;
+    --gray-500:#71717a;
+    --gray-200:#e4e4e7;
+   
+}
+
+
+
+/* flex */
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Spacing */
+
+
+
+/* border-radius */
+
+.br-0_5rem{
+    border-radius: 0.5rem;
+}
+
+.br-left{
+ border-left: 5px solid inherit;
+}
+
+.br-bottom{
+    border-bottom: 5px;
 }
