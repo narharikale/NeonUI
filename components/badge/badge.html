@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Badge</title>
+    <title>alert</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="./badge.css">
 </head>
+<style>
+ body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     flex-direction: column;
+    }
+
+ .allBadgeContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+    height: auto;
+    width: 70vw;
+    padding: 20px;
+    }
+</style>
+
 <body>
-    
+    <div class="allBadgeContainer">
+        badges with icon
+        <div class="badge-parent">
+            <span class="material-icons"> shopping_cart </span>
+            <div class="badge-with-icon">5</div>
+        </div>
+        
+        <div class="badge-parent">
+            <span class="material-icons"> mail </span>
+            <div class="badge-with-icon">45</div>
+        </div>
+
+        <div class="badge-parent">
+            <span class="material-icons"> favorite_border </span>
+            <div class="badge-with-icon">3</div>
+        </div>
+
+        <div class="badge-parent">
+            <span class="material-icons"> notifications_none </span>
+            <div class="badge-with-icon">1</div>
+        </div>
+    </div>
+
+    <div class="allBadgeContainer">
+        Text-badges
+        <div class="badge-text bg-green-200 color-green-600"> <span class="material-icons badge-icon "> task_alt </span>Done</div>
+        <div class="badge-text bg-warn-200 color-warn-600"> <span class="material-icons badge-icon "> pending </span>In-Process</div>
+        <div class="badge-text bg-red-200 color-red-600"> <span class="material-icons badge-icon "> remove_circle </span>Not done   </div>
+    </div>
+
+    <div class="allBadgeContainer">
+        round badges
+        <div class="badgesFor-status bg-red-600"></div>
+        <div class="badgesFor-status bg-warn-600"></div>
+        <div class="badgesFor-status bg-green-600"></div>
+    </div>
 </body>
 </html>

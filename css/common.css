@@ -22,7 +22,7 @@ h6 {
     --red-600:#dc2626;
     --red-500:#ef4444;
     --red-200:#fecaca;
-    --green-600:#65a30d;
+    --green-600:#16a34a;
     --green-500:#22c55e;
     --green-200:#bbf7d0;
     --warn-600:#d97706;
@@ -31,6 +31,7 @@ h6 {
     --gray-600:#52525b;
     --gray-500:#71717a;
     --gray-200:#e4e4e7;
+    --slate-400:#94a3b8;
    
 }
 
@@ -62,3 +63,42 @@ h6 {
 .br-bottom{
     border-bottom: 5px;
 }
+
+
+/* colors */
+
+.bg-red-200{
+    background-color: var(--red-200);
+}
+.bg-red-600{
+    background-color: var(--red-600);
+}
+.bg-warn-600{
+    background-color: var(--warn-600);
+}
+.bg-warn-200{
+    background-color: var(--warn-200);
+}
+.bg-green-600{
+    background-color: var(--green-600);
+}
+.bg-green-200{
+    background-color: var(--green-200);
+}
+.bg-gray-200{
+    background-color: var(--gray-200);
+}
+
+.color-red-600{
+    color: var(--red-600);
+}
+
+.color-warn-600{
+    color: var(--warn-600);
+}
+.color-green-600{
+    color: var(--green-600);
+}
+.color-gray-600{
+    color: var(--gray-600);
+}   
