@@ -32,10 +32,7 @@ h6 {
     --gray-500:#71717a;
     --gray-200:#e4e4e7;
     --slate-400:#94a3b8;
-   
 }
-
-
 
 /* flex */
 
@@ -43,13 +40,38 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-between{
+    justify-content: space-between;
 }
 
-
 /* Spacing */
+.m-2o5{
+    margin: .25rem;
+}
 
+.m-o5{
+    margin: .5rem;
+}
 
+.m-1{
+    margin: 1rem;
+}
 
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-2{
+    gap: 2rem;
+}
 /* border-radius */
 
 .br-0_5rem{

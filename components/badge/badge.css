@@ -21,13 +21,17 @@
 }
 
 .badge-text{
-    padding:6px;
+    padding: 2px 5px;
+    font-size: 0.938rem;
     border-radius: 0.938rem;
     display: flex;
     border: 2px solid var(--gray-200);
+    max-width: fit-content;
 }
 .badgesFor-status{
-    padding:6px;
+    padding: 5px;
+    width: 0;
+    height: 0;
     border-radius: 0.938rem;
     border: 2px solid var(--gray-200);
 }

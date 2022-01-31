@@ -1,10 +1,10 @@
 
-
 .alert{
-    max-width: 100%;
+    max-width:25rem;
     display: flex;
     align-items: center;
     position: relative;
+    gap: .6rem;
     padding: 1rem;
     overflow: hidden;
 }
@@ -35,8 +35,4 @@
     background-color:var(--gray-200);
     border-left:5px solid var(--gray-500);
     border-radius: 0px 3px 3px 0px ;
-}
-
-.alert-icon{
-    margin-right: 1.2rem;
 }
