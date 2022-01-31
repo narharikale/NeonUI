@@ -3,7 +3,6 @@
 
 
 body {
-    background: var(--bg-color);
     font-family: 'Lato', sans-serif;
     line-height: 1.4rem;
 }
@@ -16,3 +15,112 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
 }
+
+:root{
+    --primary-color:#7D525F;
+    --secondary-color:#BDD1DA;
+    --red-600:#dc2626;
+    --red-500:#ef4444;
+    --red-200:#fecaca;
+    --green-600:#16a34a;
+    --green-500:#22c55e;
+    --green-200:#bbf7d0;
+    --warn-600:#d97706;
+    --warn-500:#f59e0b;
+    --warn-200:#fde68a;
+    --gray-600:#52525b;
+    --gray-500:#71717a;
+    --gray-200:#e4e4e7;
+    --slate-400:#94a3b8;
+}
+
+/* flex */
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+/* Spacing */
+.m-2o5{
+    margin: .25rem;
+}
+
+.m-o5{
+    margin: .5rem;
+}
+
+.m-1{
+    margin: 1rem;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+/* border-radius */
+
+.br-0_5rem{
+    border-radius: 0.5rem;
+}
+
+.br-left{
+ border-left: 5px solid inherit;
+}
+
+.br-bottom{
+    border-bottom: 5px;
+}
+
+
+/* colors */
+
+.bg-red-200{
+    background-color: var(--red-200);
+}
+.bg-red-600{
+    background-color: var(--red-600);
+}
+.bg-warn-600{
+    background-color: var(--warn-600);
+}
+.bg-warn-200{
+    background-color: var(--warn-200);
+}
+.bg-green-600{
+    background-color: var(--green-600);
+}
+.bg-green-200{
+    background-color: var(--green-200);
+}
+.bg-gray-200{
+    background-color: var(--gray-200);
+}
+
+.color-red-600{
+    color: var(--red-600);
+}
+
+.color-warn-600{
+    color: var(--warn-600);
+}
+.color-green-600{
+    color: var(--green-600);
+}
+.color-gray-600{
+    color: var(--gray-600);
+}   
