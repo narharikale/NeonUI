@@ -17,9 +17,11 @@ h6 {
 }
 
 :root{
-    --primary-color:#7D525F;
+    --primary-color-600:#9333ea;
+    --primary-color-400:#c084fc;
+    --primary-color-200:#e9d5ff;
     --secondary-color:#BDD1DA;
-    --red-600:#dc2626;
+    --red-600:#dc2626;  
     --red-500:#ef4444;
     --red-200:#fecaca;
     --green-600:#16a34a;
@@ -65,6 +67,9 @@ h6 {
     margin: 1rem;
 }
 
+.m-2{
+    margin: 3rem;
+}
 .gap-1{
     gap: 1rem;
 }
@@ -72,8 +77,30 @@ h6 {
 .gap-2{
     gap: 2rem;
 }
-/* border-radius */
 
+/* Box  */
+.square-xs{
+    width: .5rem;
+    height: .5rem;
+}
+
+.square-sm{
+    width: 2rem;
+    height: 2rem;
+}
+
+.square-md{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.square-lg {
+    width: 4.5rem;
+    height: 4.5rem;
+    
+}
+
+/* border*/
 .br-0_5rem{
     border-radius: 0.5rem;
 }
@@ -84,6 +111,10 @@ h6 {
 
 .br-bottom{
     border-bottom: 5px;
+}
+
+.br-round{
+    border-radius: 50%;
 }
 
 
