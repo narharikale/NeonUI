@@ -15,12 +15,13 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
 }
-
+button ,a {
+    cursor: pointer;
+}
 :root{
     --primary-color-600:#9333ea;
     --primary-color-400:#c084fc;
     --primary-color-200:#e9d5ff;
-    --secondary-color:#BDD1DA;
     --red-600:#dc2626;  
     --red-500:#ef4444;
     --red-200:#fecaca;
@@ -32,6 +33,7 @@ h6 {
     --warn-200:#fde68a;
     --gray-600:#52525b;
     --gray-500:#71717a;
+    --gray-300:#d1d5db;
     --gray-200:#e4e4e7;
     --slate-400:#94a3b8;
 }
@@ -52,6 +54,9 @@ h6 {
 }
 .justify-between{
     justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 /* Spacing */
@@ -101,6 +106,9 @@ h6 {
 }
 
 /* border*/
+.b-0{
+    border: 0;
+}
 .br-0_5rem{
     border-radius: 0.5rem;
 }
