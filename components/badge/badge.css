@@ -1,7 +1,9 @@
 
 .badge-parent{
     position: relative;
+    width: fit-content;
     display: inline-block;
+    height: fit-content;
 }
 
 .badge-with-icon{
@@ -28,12 +30,26 @@
     border: 2px solid var(--gray-200);
     max-width: fit-content;
 }
+
+
 .badgesFor-status{
+    position: absolute;
     padding: 5px;
-    width: 0;
-    height: 0;
     border-radius: 0.938rem;
-    border: 2px solid var(--gray-200);
+    border: 2px solid white;
+    bottom: 0;
+    right: 0;
+}
+
+.badgesFor-status-md{
+    width: 1.2rem;
+    height: 1.2rem;
+   
+}
+.badgesFor-status-lg{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3.5px solid white;
 }
 
 .badge-text .badge-icon {

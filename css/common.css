@@ -15,11 +15,14 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
 }
-
+button ,a {
+    cursor: pointer;
+}
 :root{
-    --primary-color:#7D525F;
-    --secondary-color:#BDD1DA;
-    --red-600:#dc2626;
+    --primary-color-600:#9333ea;
+    --primary-color-400:#c084fc;
+    --primary-color-200:#e9d5ff;
+    --red-600:#dc2626;  
     --red-500:#ef4444;
     --red-200:#fecaca;
     --green-600:#16a34a;
@@ -30,6 +33,7 @@ h6 {
     --warn-200:#fde68a;
     --gray-600:#52525b;
     --gray-500:#71717a;
+    --gray-300:#d1d5db;
     --gray-200:#e4e4e7;
     --slate-400:#94a3b8;
 }
@@ -51,6 +55,9 @@ h6 {
 .justify-between{
     justify-content: space-between;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
 /* Spacing */
 .m-2o5{
@@ -65,6 +72,9 @@ h6 {
     margin: 1rem;
 }
 
+.m-2{
+    margin: 3rem;
+}
 .gap-1{
     gap: 1rem;
 }
@@ -72,8 +82,33 @@ h6 {
 .gap-2{
     gap: 2rem;
 }
-/* border-radius */
 
+/* Box  */
+.square-xs{
+    width: .5rem;
+    height: .5rem;
+}
+
+.square-sm{
+    width: 2rem;
+    height: 2rem;
+}
+
+.square-md{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.square-lg {
+    width: 4.5rem;
+    height: 4.5rem;
+    
+}
+
+/* border*/
+.b-0{
+    border: 0;
+}
 .br-0_5rem{
     border-radius: 0.5rem;
 }
@@ -84,6 +119,10 @@ h6 {
 
 .br-bottom{
     border-bottom: 5px;
+}
+
+.br-round{
+    border-radius: 50%;
 }
 
 
