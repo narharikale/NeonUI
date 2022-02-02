@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+    <div class=" m-1 flex-container gap-2 flex-column">
+        filled input
+        <form class="input-parent">
+            <label class="input-label" for="Username">Name</label>
+            <input class="input-filled primary" type="text" id="Username">
+        </form>
+        <form class="input-parent">
+            <label class="input-label" for="Username">Sucess</label>
+            <input class="input-filled sucess" type="text" id="Username">
+        </form>
+        <form class="input-parent">
+            <label class="input-label" for="Username">Error</label>
+            <input class="input-filled error" type="text" id="Username">
+        </form>
+    </div>
+    <div class="m-1 flex-container gap-2 flex-column">
+        simple
+        <form class="input-parent flex-column">
+            <label class="font-size-regular font-weight-600" for="Username">Name</label>
+            <input class="input-outline" type="text" id="Username">
+            <div class=" font-size-sm color-green-600">Error password should be longer</div>
+        </form>
+        <form class="input-parent flex-column">
+            <label class="font-size-regular font-weight-600" for="Username">Eamil</label>
+            <input class="input-outline" type="text" id="Username">
+            <div class=" font-size-sm color-red-600">email should contain @</div>
+        </form>
+       
+    </div>
+    
+</body>
+</html>
