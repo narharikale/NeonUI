@@ -84,6 +84,13 @@ video {
   box-sizing: border-box;
 }
 
+img,
+video,
+iframe{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 a{
     text-decoration: none;
     color: inherit;
