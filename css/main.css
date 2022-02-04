@@ -8,6 +8,7 @@
 @import url(/components/input/input.css);
 @import url(/components/card/card.css);
 @import url(/components/textUtilities/textUtilities.css);
+@import url(/components/toast/toast.css);
 
 body{
     margin: 4rem;
