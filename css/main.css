@@ -7,6 +7,7 @@
 @import url(/components/image/image.css);
 @import url(/components/input/input.css);
 @import url(/components/card/card.css);
+@import url(/components/textUtilities/textUtilities.css);
 
 body{
     margin: 4rem;
