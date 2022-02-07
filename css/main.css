@@ -10,6 +10,3 @@
 @import url(/components/textUtilities/textUtilities.css);
 @import url(/components/toast/toast.css);
 
-body{
-    margin: 4rem;
-}

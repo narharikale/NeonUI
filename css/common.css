@@ -19,9 +19,9 @@ button ,a {
     cursor: pointer;
 }
 :root{
-    --primary-color-600:#9333ea;
-    --primary-color-400:#c084fc;
-    --primary-color-200:#e9d5ff;
+    --primary-color-600:#fd7014;
+    --primary-color-400:#ff8f33;
+    --primary-color-200:#ffb75b;
     --red-600:#dc2626;  
     --red-500:#ef4444;
     --red-200:#fecaca;
@@ -40,6 +40,7 @@ button ,a {
     --white:#fff;
     --black:#000;
     --blue:blue;
+    --ternary-color:#eff0f3
 }
 
 /* flex */

@@ -1,0 +1,50 @@
+@import url(./main.css);
+
+body{
+    background-color: var(--ternary-color);
+}
+.container{
+    width: 80%;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto;
+  
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 85px;
+    padding: 17px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links > li >a {
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+.nav-links > li >a:hover{
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    background-color:var(--gray-200)
+}
+.hero-heading{
+    min-width: 520px;
+    height: 100%;
+    align-self: center;
+    flex-grow: 1;
+}
+.hero-img{
+    width: 800px;
+    height: auto;
+    margin-right:-100px ;
+    
+}
