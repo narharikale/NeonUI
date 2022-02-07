@@ -1,0 +1,44 @@
+
+.sidebar{
+    width: 18.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    border-right: 1px solid var(--gray-300);
+}
+
+
+.sidebarList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebarList > li{
+    padding:1rem;  
+}
+
+.sidebarList>li:hover{
+    background-color: var(--gray-200);
+}
+
+.actualExamplesContainer{
+    width: 100%;
+    border: 1px solid ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .sidebar {
+      display: none;
+    }
+  }
