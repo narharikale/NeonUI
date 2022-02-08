@@ -18,14 +18,12 @@
 
 .input-outline{
     border: .18rem solid var(--gray-500);
-    width: 100%;
     border-radius: 6px;
     font-size: 1.125rem;
     height: 2.668rem;
 }
 .input-filled{
     border: none;
-    width: 100%;
     box-sizing: content-box;
     padding: 1rem 1rem 3rem .5rem;
     font-size: inherit;
