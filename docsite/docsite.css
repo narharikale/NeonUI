@@ -1,13 +1,25 @@
 
 .sidebar{
+    position: fixed;
+    top: 4.063rem;
     width: 18.125rem;
+    overflow: auto;
     display: flex;
     flex-direction: column;
+    height: 80vh;
     align-items: center;
-    height: 100vh;
     border-right: 1px solid var(--gray-300);
 }
 
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.d-grid-sidebar-1fr{
+    display: grid;
+    grid-template-columns: minmax(0, 18.125rem) 1fr;
+    gap: 1rem;
+}
 
 .sidebarList{
     list-style: none;

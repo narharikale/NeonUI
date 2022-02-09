@@ -1,11 +1,9 @@
 
-
 body{
     background-color: var(--ternary-color);
 }
 .container{
     width: 80%;
-    min-height: 100vh;
     height: max-content;
     margin: auto;
   
@@ -13,9 +11,13 @@ body{
 .navbar{
     display: flex;
     align-items: center;
+    position: sticky;
+    height: 4.063rem;
+    top: 0;
+    z-index: 1;
+    background-color: var(--ternary-color);
     justify-content: space-between;
-    min-height: 5.313rem;
-    padding: 0.75rem 2.5rem;
+    padding: 10px 2.5rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
@@ -47,5 +49,4 @@ body{
     width: 50rem;
     height: auto;
     margin-right:-6.25rem ;
-    
 }
