@@ -11,7 +11,9 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    left: 0;
     height: 4.063rem;
     top: 0;
     z-index: 1;
@@ -49,4 +51,8 @@ body{
     width: 50rem;
     height: auto;
     margin-right:-6.25rem ;
+}
+
+.landing-page-container{
+    margin-top: 6rem;
 }

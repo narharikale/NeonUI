@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://musing-varahamihira-c01873.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/docsite/docsite.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
           </svg>
         </div>
         <ul class="nav-links">
-            <li><a target="_blank" href="#">Documentation</a></li>
+            <li><a target="_blank" href="/docsite/docsite.html">Documentation</a></li>
             <li><a target="_blank" href="https://github.com/narharikale/NeonUI">Github</a></li>         
         </ul>
     </nav>
@@ -56,7 +57,7 @@
         <aside>
             <div class="sidebar">
                 <ul class="sidebarList">
-                     <li class="text-center"><a href="#">Installation</a></li>
+                      <li class="text-center"><a href="/docsite/docsite.html">Installation</a></li>
                     <li class="text-center"><a href="/components/alert/alert.html">Alert</a></li>
                     <li class="text-center"><a href="/components/avatar/avatar.html">Avatar</a></li>
                     <li class="text-center"><a href="/components/badge/badge.html">Badge</a></li>
@@ -74,32 +75,31 @@
                 </ul>
             </div>
         </aside>
-        <main>
+        <main class="p-2">
             <h1>Alerts</h1>
-            <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages</p>
-            <h2>Examples</h2>
-            <div class="actualExamplesContainer">
-                <div class="alert alert-danger ">
-                    <span class="material-icons ">error</span>
-                    Error occured can not complete action
-                </div>
-        
-                <div class="alert alert-sucess ">
-                    <span class="material-icons ">check_circle</span>
-                    Error occured can not complete action
-                </div>
-        
-                <div class="alert alert-warning ">
-                    <span class="material-icons ">warning</span>
-                    Error occured can not complete action
-                </div>
-        
-                <div class="alert alert-gray ">
-                    <span class="material-icons ">help</span>
-                    Error occured can not complete action
-                </div>                 
+            <p>The Alert component is used to show feedback to the user about an action or state.</p>
+            <h3>Simple alert</h3>
+            <div class="actualExamplesContainer flex-column ">
+                <div class="alert alert-danger ">Error occured can not complete action</div>
+                <div class="alert alert-gray ">This is a simple alert</div>                 
             </div>
-        </main>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6203a493234b8a0015700cd9" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+            
+            <h3>Alert with icon</h3>
+            <div class="actualExamplesContainer flex-column ">
+                <div class="alert alert-sucess"><span class="material-icons">check_circle</span>This is a Success alert</div>
+                <div class="alert alert-warning"><span class="material-icons">warning</span>This is a warning alert</div>   
+                <div class="alert alert-danger"><span class="material-icons">error</span>Error occured can not complete action</div>
+                <div class="alert alert-gray"><span class="material-icons">help</span>This is a info alert</div>              
+            </div>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6203b344234b8a0015700cef" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+            <h3>Alert with Cancel button</h3>
+            <div class="actualExamplesContainer flex-column">
+                <div class="alert alert-sucess"><span class="material-icons">check_circle</span>This is a Success alert <span class="material-icons mr-left-auto alert-btn">clear</span>  </div>
+                <div class="alert alert-gray">This is a info alert <span class="material-icons mr-left-auto alert-btn">clear</span></div>              
+            </div>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6203f24fc6efb50015062d7c" style="width: 100%; height: 151px;" frameborder="0"></iframe>
+          </main>
     </div>
 </body>
 </html>
