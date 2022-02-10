@@ -11,7 +11,9 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    left: 0;
     height: 4.063rem;
     top: 0;
     z-index: 1;

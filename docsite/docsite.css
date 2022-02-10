@@ -1,8 +1,8 @@
 
 .sidebar{
-    position: fixed;
+    position: sticky;
     top: 4.063rem;
-    width: 18.125rem;
+    width: 100%;
     overflow: auto;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,7 @@
 
 .d-grid-sidebar-1fr{
     display: grid;
-    grid-template-columns: minmax(0, 18.125rem) 1fr;
-    gap: 1rem;
+    grid-template-columns: minmax(0, 15rem) 3fr;
 }
 
 .sidebarList{
@@ -38,19 +37,23 @@
 
 .actualExamplesContainer{
     width: 100%;
-    border: 1px solid ;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
-    flex-direction: column;
+    background: #f8f8fb;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-
-
 
 
 @media screen and (max-width: 500px) {
     .sidebar {
       display: none;
     }
-  }
+    .d-grid-sidebar-1fr{
+        display: grid;
+        grid-template-columns:auto;
+    }
+}
+
