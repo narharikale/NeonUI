@@ -36,7 +36,7 @@
     box-shadow: none;
 }
 .btn.btn-outline:hover{
-    border: 1px solid var(--gray-500);
+    border: 2px solid var(--gray-500);
 }
 
 .btn-link {
