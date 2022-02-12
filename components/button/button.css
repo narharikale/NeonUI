@@ -31,8 +31,7 @@
 }
 
 .btn.btn-outline{
-    border: 1px solid var(--gray-300);
-    background-color:var(--white);
+    border: 2px solid var(--gray-300);
     border-radius: 0;
     box-shadow: none;
 }
