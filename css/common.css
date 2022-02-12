@@ -60,6 +60,9 @@ button ,a {
 .justify-between{
     justify-content: space-between;
 }
+.align-center{
+    align-items: center;
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
