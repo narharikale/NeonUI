@@ -19,7 +19,6 @@
     padding: 2.5rem;
     width: 28.75rem;
     display: flex;
-    background: var(--white);
     flex-direction: column;
     gap: 1.25rem;
 }

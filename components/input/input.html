@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button</title>
+    <title>Inputs</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="https://musing-varahamihira-c01873.netlify.app/css/main.css">
     <link rel="stylesheet" href="/css/index.css">
@@ -57,7 +57,7 @@
         <aside>
             <div class="sidebar">
                 <ul class="sidebarList">
-                      <li class="text-center"><a href="/docsite/docsite.html">Installation</a></li>
+                    <li class="text-center"><a href="/docsite/docsite.html">Installation</a></li>
                     <li class="text-center"><a href="/components/alert/alert.html">Alert</a></li>
                     <li class="text-center"><a href="/components/avatar/avatar.html">Avatar</a></li>
                     <li class="text-center"><a href="/components/badge/badge.html">Badge</a></li>
@@ -76,37 +76,56 @@
             </div>
         </aside>
         <main class="p-2">
-            <h1>Buttons</h1>
+            <h1>Input</h1>
             <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages</p>
-            <h2>Examples</h2>
-            <div class="actualExamplesContainer">
-                <form class="input-parent">
-                    <label class="input-label" for="Username">Name</label>
-                    <input class="input-filled primary" type="text" id="Username">
-                </form>
-                <form class="input-parent">
-                    <label class="input-label" for="Username">Sucess</label>
-                    <input class="input-filled sucess" type="text" id="Username">
-                </form>
-                <form class="input-parent">
-                    <label class="input-label" for="Username">Error</label>
-                    <input class="input-filled error" type="text" id="Username">
-                </form>
-
-                <form class="input-parent flex-column">
-                    <label class="font-size-regular font-weight-600" for="Username">Name</label>
-                    <input class="input-outline" type="text" id="Username">
-                    <div class=" font-size-sm color-green-600">Error password should be longer</div>
-                </form>
-                <form class="input-parent flex-column">
-                    <label class="font-size-regular font-weight-600" for="Username">Eamil</label>
-                    <input class="input-outline" type="text" id="Username">
-                    <div class=" font-size-sm color-red-600">email should contain @</div>
-                </form>
-
+            
+            
+            <h2>Filled input</h2>
+            <div class="actualExamplesContainer justify-around">
+              <form class="input-parent">
+                <label class="input-label" for="Username">Sucess</label>
+                <input class="input-filled sucess" type="text" id="Username">
+              </form>
+              <form class="input-parent">
+                <label class="input-label" for="Username">Error</label>
+                <input class="input-filled error" type="text" id="Username">
+              </form>
             </div>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6208e383d9ba1100151e6c7c" style="width: 100%; height: 190px;" frameborder="0"></iframe>
+
+
+            <h2>Outlined with validation</h2>
+            <div class="actualExamplesContainer justify-around">
+              <form class="input-parent flex-column">
+                <label class="font-size-regular font-weight-600" for="Username">Name</label>
+                <input class="input-outline" type="text" id="Username">
+                <div class=" font-size-sm color-green-600">Error password should be longer</div>
+              </form>
+              <form class="input-parent flex-column">
+                <label class="font-size-regular font-weight-600" for="Username">Email</label>
+                <input class="input-outline" type="text" id="Username">
+                <div class=" font-size-sm color-red-600">email should contain @</div>
+              </form>
+            </div>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6208e3edd9ba1100151e6c81" style="width: 100%; height: 216px;" frameborder="0"></iframe>
+
+            <h2>Form</h2>
+            <div class="actualExamplesContainer justify-around">
+              <div class="modal p-relative bg-gray-200">
+                <form class="d-flex flex-column">
+                  <label class="font-size-regular font-weight-600" for="Username">Name</label>
+                  <input class="input-outline" type="text" id="Username">
+                </form>
+                <form class="d-flex flex-column">
+                  <label class="font-size-regular font-weight-600" for="Username">Email</label>
+                  <input class="input-outline" type="text" id="Username">
+                </form>
+                <button class="btn btn-primary font-size-regular">Log In</button>
+                <button class="btn btn-outline font-size-regular">Sign up</button>
+              </div>
+            </div>
+            <iframe class="mx-2" src="https://www.thiscodeworks.com/embed/6208e41fd9ba1100151e6c82" style="width: 100%; height: 242px;" frameborder="0"></iframe>
         </main>
     </div>
 </body>
 </html>
-

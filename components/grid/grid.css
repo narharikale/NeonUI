@@ -9,3 +9,14 @@
     grid-template-columns:repeat(3, 1fr);
     gap: 2rem;
 }
+.grid-70-30{
+    display: grid;
+    grid-template-columns:70% 30%;
+    gap: 2rem;
+}
+.test-grid-box{
+    background-color: var(--gray-400);
+    min-width: 12.5rem;
+    width: 100%;
+    min-height: 12.5rem;
+}
