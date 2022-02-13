@@ -7,7 +7,6 @@
 }
 
 .input-label{
-    z-index: 1;
     font-size: 0.875rem;
     height: fit-content;
     position: absolute;

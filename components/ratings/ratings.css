@@ -9,9 +9,10 @@
 
 .rating-container label {
     display: inline-block;
-    width: 30px;
+    width: 1.875rem;
     position: relative;
     cursor: pointer;
+    top:-1.125rem;
 }
 
 .rating-container label::before {

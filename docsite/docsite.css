@@ -18,6 +18,8 @@
 .d-grid-sidebar-1fr{
     display: grid;
     grid-template-columns: minmax(0, 15rem) 3fr;
+    position: relative;
+    top: 4.063rem;
 }
 
 .sidebarList{
