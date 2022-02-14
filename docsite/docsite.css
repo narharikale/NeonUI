@@ -28,6 +28,16 @@
     flex-direction: column;
     width: 100%;
 }
+.list-item{
+    padding: 1rem 1rem 1rem 2.5rem;
+}
+.list-item:active{
+    background-color:var(--gray-200);
+}
+.list-item:hover{
+    background-color:var(--gray-200);
+}
+
 
 .sidebarList > li{
     padding:1rem;  
