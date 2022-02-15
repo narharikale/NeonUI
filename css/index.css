@@ -4,9 +4,11 @@ body{
 }
 .container{
     width: 80%;
-    height: max-content;
+    display: flex;
+    height: 100vh;
     margin: auto;
-  
+    flex-direction: column;
+    justify-content: center;
 }
 .navbar{
     display: flex;
@@ -55,4 +57,11 @@ body{
 
 .landing-page-container{
     margin-top: 6rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    .hero-img{
+       display: none;
+    }
 }
