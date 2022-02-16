@@ -16,7 +16,6 @@
 }
 .test-grid-box{
     background-color: var(--gray-400);
-    min-width: 12.5rem;
     width: 100%;
     min-height: 12.5rem;
 }

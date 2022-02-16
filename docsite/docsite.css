@@ -26,9 +26,12 @@ background-color: var(--gray-500)
 
 .d-grid-sidebar-1fr{
     display: grid;
-    grid-template-columns: minmax(0, 15rem) 3fr;
+    grid-template-columns: minmax(0, 10rem) 1fr;
     position: relative;
-    top:0;
+    top: 0;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebarList{
@@ -38,7 +41,8 @@ background-color: var(--gray-500)
     width: 100%;
 }
 .list-item{
-    padding: 1rem 1rem 1rem 2.5rem;
+    padding: 7px 8px;
+    font-size: 14px;
 }
 
 .list-item:hover{
@@ -71,7 +75,7 @@ background-color: var(--gray-500)
 
 @media screen and (max-width: 500px) {
     .sidebar {
-      display: none;
+      
     }
     .d-grid-sidebar-1fr{
         display: grid;
