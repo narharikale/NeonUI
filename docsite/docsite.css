@@ -65,6 +65,7 @@ background-color: var(--gray-500)
     width: 100%;
     padding: 1.25rem;
     display: flex;
+    flex-wrap: wrap;
     background: #f8f8fb;
     align-items: center;
     gap: 1.25rem;
