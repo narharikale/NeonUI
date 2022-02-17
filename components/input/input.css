@@ -2,7 +2,7 @@
 .input-parent{
     display: flex;
     position: relative;
-    min-width: 22rem;
+    max-width: 22rem;
     min-height:  3.5rem;
 }
 
@@ -16,10 +16,10 @@
 }
 
 .input-outline{
-    border: .18rem solid var(--gray-500);
+    border: .18rem solid var(--gray-300);
     border-radius: 6px;
     font-size: 1.125rem;
-    height: 2.668rem;
+    padding: 9px;
 }
 .input-filled{
     border: none;
@@ -29,6 +29,10 @@
     padding-bottom: 0;
     border-radius: 4px 4px 0px 0px;
     outline: 0;
+}
+.input-textarea{
+    border-radius: 5px;
+    border: 2px solid var(--gray-300);
 }
 
 .input-filled.primary{
