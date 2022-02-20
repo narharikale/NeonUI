@@ -1,7 +1,6 @@
 
 body{
     background-color: var(--ternary-color);
-    height: min-content;
 }
 .container{
     display: flex;
@@ -30,17 +29,17 @@ body{
 .nav-links{
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 1rem;
     justify-content: space-between;
     list-style: none;
 }
 .nav-links > li >a {
-    padding: 8px;
+    padding: .5rem;
     border-radius: 4px;
     text-align: center;
 }
 .nav-links > li >a:hover{
-    padding: 8px;
+    padding: .5rem;
     border-radius: 4px;
     text-align: center;
     background-color:var(--gray-200)
@@ -76,5 +75,8 @@ body{
         align-items: center;
         justify-content: center;
 
+    }
+    .nav-links > li >a{
+        padding: 0;
     }
 }
