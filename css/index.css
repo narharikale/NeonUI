@@ -1,9 +1,9 @@
 
 body{
     background-color: var(--ternary-color);
+    height: min-content;
 }
 .container{
-    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,9 @@ body{
     background-color:var(--gray-200)
 }
 
-
+.hero-heading-text{
+    line-height: 3rem;
+}
 
 
 
@@ -66,5 +68,13 @@ body{
     }
     .navbar{
         padding: 1rem;
+    }
+    .main-container{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
     }
 }
