@@ -3,6 +3,11 @@ document.querySelector('.slider').addEventListener('mousemove' ,rangeSlide)
 
 
 function rangeSlide(event) {
-    console.log(event.target)
     document.getElementById('rangeValue').innerText = this.value;
 }
+
+
+document.querySelector('.view-demo').addEventListener('click' ,()=> {
+    console.log('workin')
+    document.querySelector('.view-demo').style.display = "none"
+});
