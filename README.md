@@ -44,7 +44,8 @@ and include JS file also
 ## Tech Stack
 HTML, CSS & JS
 
-## Preview-Gify
+## Preview-Gif
+![complib-preview](https://user-images.githubusercontent.com/71428794/154898785-89b5959f-4d71-4f28-88fb-2ce3251be273.gif)
 
 
 ## Author
