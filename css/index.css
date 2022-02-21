@@ -3,7 +3,6 @@ body{
     background-color: var(--ternary-color);
 }
 .container{
-    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,23 +29,25 @@ body{
 .nav-links{
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 1rem;
     justify-content: space-between;
     list-style: none;
 }
 .nav-links > li >a {
-    padding: 8px;
+    padding: .5rem;
     border-radius: 4px;
     text-align: center;
 }
 .nav-links > li >a:hover{
-    padding: 8px;
+    padding: .5rem;
     border-radius: 4px;
     text-align: center;
     background-color:var(--gray-200)
 }
 
-
+.hero-heading-text{
+    line-height: 3rem;
+}
 
 
 
@@ -66,5 +67,16 @@ body{
     }
     .navbar{
         padding: 1rem;
+    }
+    .main-container{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .nav-links > li >a{
+        padding: 0;
     }
 }
