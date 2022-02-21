@@ -3,7 +3,6 @@
     position: sticky;
     top: 4.063rem;
     width: 100%;
-    overflow: auto;
     display: flex;
     flex-direction: column;
     height: 85vh;
@@ -41,8 +40,8 @@ background-color: var(--gray-500)
     width: 100%;
 }
 .list-item{
-    padding: 7px 8px;
-    font-size: 14px;
+    padding: 0.313rem .5rem;
+    font-size: 0.875rem;
 }
 
 .list-item:hover{
@@ -81,14 +80,31 @@ background-color: var(--gray-500)
     font-size: 13px;
     border: 1px solid var(--gray-400);
 }
-
+#menuBtn{
+    display:none;
+}
 @media screen and (max-width: 500px) {
+    
     .sidebar {
       display: none;
+      padding: 1rem;
+      position: fixed;
+      z-index: 2;
+
+      background-color: var(--ternary-color);
+      transition: all .75s ease;
+      overflow-y:scroll;
+    }
+    .list-item{
+        font-size: 1.2rem;
+        padding: .8rem;
     }
     .d-grid-sidebar-1fr{
         display: grid;
         grid-template-columns:auto;
+    }
+    #menuBtn{
+        display: block;
     }
 }
 
