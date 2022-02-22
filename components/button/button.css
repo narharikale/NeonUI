@@ -32,7 +32,6 @@
 
 .btn.btn-outline{
     border: 2px solid var(--gray-300);
-    border-radius: 0;
     box-shadow: none;
     background-color: transparent;
 }
